@@ -252,7 +252,7 @@ Generates personalized suggestions after every interview.
 | Name | Role |
 |------|------|
 | **Mathumitha S** | Frontend Development & UI Design |
-| **Khaviya Shree M** | Backend Development |
+| **Jashwanth M** | Backend Development |
 | **Madhusree M** | AI Integration & Testing |
 | **Harshini A** | Database & Documentation |
 
