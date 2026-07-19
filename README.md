@@ -10,50 +10,65 @@
 
 **Bridge the Gap Between Preparation and Opportunity**
 
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
+
 </div>
 
 ---
 
-## 📖 Overview
+# 📖 About HireBridge
 
-**HireBridge** is an AI-powered virtual mock interview platform designed to help students and job seekers prepare for technical and HR interviews through realistic interview simulations.
+**HireBridge** is an AI-powered virtual mock interview platform that helps students and job seekers prepare for real-world technical and HR interviews through intelligent interview simulations.
 
-The platform combines an interactive AI interviewer, coding environment, personalized feedback, and performance analytics to provide a complete interview preparation experience that closely resembles real-world recruitment processes.
+The platform recreates an authentic interview environment by combining AI-powered interviewers, coding assessments, personalized feedback, and performance analytics into a single interactive application.
+
+Whether preparing for campus placements, internships, or professional roles, HireBridge provides a structured and immersive interview experience that improves confidence, technical skills, and communication abilities.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
 ### 🤖 AI Mock Interviews
-- Realistic AI-powered interview sessions
-- HR and Technical interview modes
-- Dynamic interview flow
 
-### 💻 Integrated Coding Environment
+- Interactive AI interviewer
+- Technical interview simulation
+- HR interview simulation
+- Real-time conversation flow
+
+### 💻 Coding Assessment
+
 - Built-in code editor
-- Coding round simulation
+- Coding challenge environment
 - Syntax highlighting
-- Real-time coding experience
+- Real-time programming experience
 
 ### 📊 Performance Analytics
-- Interview score
+
+- Interview score analysis
+- Skill-wise evaluation
 - Performance tracking
-- Skill-wise analysis
-- Improvement insights
+- Progress visualization
 
 ### 💬 Personalized Feedback
+
 - AI-generated feedback
-- Strength analysis
-- Areas for improvement
-- Interview tips
+- Communication assessment
+- Technical evaluation
+- Improvement suggestions
 
 ### 🎯 Role-Based Preparation
-Prepare for interviews based on different job roles such as
 
-- Software Engineer
+Prepare interviews for roles such as:
+
 - Full Stack Developer
 - Frontend Developer
 - Backend Developer
+- Software Engineer
 - Cloud Engineer
 - Data Analyst
 
@@ -61,77 +76,93 @@ Prepare for interviews based on different job roles such as
 
 # 🖼️ Project Screenshots
 
-## 🏠 Home Page
+<table>
+<tr>
 
-![Home](1.jpg)
+<td align="center">
 
----
+### 🏠 Home Page
 
-## 🎤 AI Interview
+<img src="Screenshot 2026-07-19 224957.png" width="450"/>
 
-![Interview](2.jpg)
+</td>
 
----
+<td align="center">
 
-## 💻 Coding Round
+### 🎤 AI Interview
 
-![Coding](3.jpg)
+<img src="Screenshot 2026-07-19 225235.png" width="450"/>
 
----
+</td>
 
-## 📊 Performance Dashboard
+</tr>
 
-![Dashboard](assets/screenshots/dashboard.png)
+<tr>
 
----
+<td align="center">
 
-## 💬 Feedback
+### 💻 Coding Round
 
-![Feedback](assets/screenshots/feedback.png)
+<img src="Screenshot 2026-07-19 225255.png" width="450"/>
+
+</td>
+
+<td align="center">
+
+### 📊 Performance Dashboard
+
+<img src="Screenshot 2026-07-19 225523.png" width="450"/>
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
 # 🏗️ System Architecture
 
 ```
-                     User
-                       │
-                       ▼
-                React Frontend
-                       │
-                       ▼
-              Express.js Backend
-                       │
-        ┌──────────────┴──────────────┐
-        ▼                             ▼
- Interview Management         Question Engine
-        │                             │
-        └──────────────┬──────────────┘
-                       ▼
-                  MongoDB Database
+                  User
+                    │
+                    ▼
+             React Frontend
+                    │
+                    ▼
+            Express.js Backend
+                    │
+      ┌─────────────┴─────────────┐
+      ▼                           ▼
+ Interview Engine         Question Management
+      │                           │
+      └─────────────┬─────────────┘
+                    ▼
+             MongoDB Database
 ```
 
 ---
 
 # 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 
 - React
 - Vite
 - JavaScript
+- HTML5
 - CSS3
 
-### Backend
+## Backend
 
 - Node.js
 - Express.js
 
-### Database
+## Database
 
 - MongoDB
 
-### Tools
+## Development Tools
 
 - Git
 - GitHub
@@ -143,27 +174,28 @@ Prepare for interviews based on different job roles such as
 # 📂 Project Structure
 
 ```
-HireBridge
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── assets
-│   │   ├── components
-│   │   ├── pages
-│   │   └── App.jsx
-│   │
+HireBridge/
+
+│── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── main.jsx
 │   └── package.json
-│
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
+
+│── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
 │   ├── questions.js
 │   ├── server.js
 │   └── package.json
-│
-└── README.md
+
+│── header.jpg
+│── README.md
 ```
 
 ---
@@ -178,21 +210,25 @@ git clone https://github.com/Mathumitha-create/HireBridge.git
 
 ---
 
-## Install Frontend
+## Frontend Setup
 
 ```bash
 cd frontend
+
 npm install
+
 npm run dev
 ```
 
 ---
 
-## Install Backend
+## Backend Setup
 
 ```bash
 cd backend
+
 npm install
+
 npm start
 ```
 
@@ -201,70 +237,100 @@ npm start
 # 🎯 Core Modules
 
 ### 🏠 Landing Page
-Modern responsive interface introducing the platform.
+
+Modern responsive landing page introducing the HireBridge platform.
+
+---
 
 ### 🔐 Authentication
-Secure user login and registration.
+
+Secure user login and authentication system.
+
+---
 
 ### 🎤 Interview Module
-Interactive AI interviewer for HR and technical rounds.
+
+AI-powered interview simulation supporting technical and HR interview rounds.
+
+---
 
 ### 💻 Coding Module
-Integrated coding environment for programming assessments.
 
-### 📈 Analytics Module
-Tracks interview scores and overall performance.
+Interactive coding assessment with an integrated code editor.
+
+---
+
+### 📊 Analytics Module
+
+Tracks interview performance, scores, and improvement over time.
+
+---
 
 ### 💬 Feedback Module
-Generates personalized suggestions after every interview.
+
+Provides AI-powered personalized interview feedback and suggestions.
 
 ---
 
 # 🌟 Why HireBridge?
 
-- Real Interview Experience
-- AI-Driven Mock Interviews
-- Interactive Coding Environment
-- Personalized Feedback
-- Performance Analytics
-- Role-Based Preparation
-- Modern Responsive Interface
+✅ Realistic Interview Experience
+
+✅ AI-Powered Interview Simulation
+
+✅ Coding Round Practice
+
+✅ Personalized Performance Feedback
+
+✅ Role-Based Interview Preparation
+
+✅ Interactive User Interface
+
+✅ Performance Analytics
+
+✅ Placement Readiness
 
 ---
 
 # 🚀 Future Enhancements
 
-- 🎙️ Voice-Based AI Interviews
+- 🎙️ Voice-Based AI Interview
 - 🤖 LLM-Powered Dynamic Question Generation
-- 📄 AI Resume Analyzer
-- 🎥 Video Interview Recording
+- 📄 AI Resume Analysis
+- 📹 Video Interview Recording
 - 🌍 Multi-language Support
 - ☁️ Cloud Deployment
 - 📱 Mobile Application
-- 🏢 Company-Specific Interview Preparation
 - 📅 Interview Scheduling
-- 📈 Advanced Skill Reports
+- 📊 Advanced Analytics Dashboard
+- 🏢 Company-Specific Interview Preparation
 
 ---
 
 # 👥 Team
 
-| Name | Role |
-|------|------|
+| Team Member | Responsibility |
+|--------------|----------------|
 | **Mathumitha S** | Frontend Development & UI Design |
-| **Jashwanth M** | Backend Development |
+| **Jashwanth J** | Backend Development |
 | **Madhusree M** | AI Integration & Testing |
-| **Harshini A** | Database & Documentation |
+| **Harshini A** | Database Management & Documentation |
+
+---
+
+# 📜 License
+
+This project is developed for educational and learning purposes.
 
 ---
 
 <div align="center">
 
-## ⭐ HireBridge
+# ⭐ HireBridge ⭐
 
-### *Bridge the Gap Between Preparation and Opportunity*
+### Bridge the Gap Between Preparation and Opportunity
 
-**Empowering students with AI-driven interview preparation and career readiness.**
+**Empowering Careers through AI-Powered Interview Preparation**
 
 Made with ❤️ by **Team HireBridge**
 
