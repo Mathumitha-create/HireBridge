@@ -63,19 +63,19 @@ Prepare for interviews based on different job roles such as
 
 ## 🏠 Home Page
 
-![Home](assets/screenshots/home.png)
+![Home](1.jpg)
 
 ---
 
 ## 🎤 AI Interview
 
-![Interview](assets/screenshots/interview.png)
+![Interview](2.jpg)
 
 ---
 
 ## 💻 Coding Round
 
-![Coding](assets/screenshots/code-editor.png)
+![Coding](3.jpg)
 
 ---
 
