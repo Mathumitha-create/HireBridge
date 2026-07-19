@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.jpg" alt="HireBridge Banner" width="100%">
+  <img src="header.png" alt="HireBridge Banner" width="100%">
 </p>
 
 <div align="center">
